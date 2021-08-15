@@ -1,0 +1,78 @@
+.profile-container {
+    margin: 40px;
+    max-width: 600px;
+    font-family: Helvetica, sans-serif;
+    width: 600px;
+  }
+  .title {
+    font-weight: bolder;
+    font-size: 50px;
+  }
+  .gravatar {
+    background: rgb(245, 245, 245);
+    border-radius: 5px;
+    border-top: lightgreen;
+    border-top: solid #000;
+    border-width: 0 1px;
+    display: block;
+  }
+  
+  .formBasic {
+    background-color: rgb(245, 244, 244);
+    border-radius: 9px;
+    height: 40px;
+  }
+  
+  .formBasic:focus {
+    border-radius: 9px;
+    background-color: rgb(245, 244, 244);
+  }
+  
+  .submit {
+    line-height: 25px;
+    width: 90%;
+    margin-top: 15px;
+    border: 2px solid #6b1880;
+    box-sizing: border-box;
+    color: white;
+    background-color: #6b1880 !important;
+    font-weight: bold;
+    font-size: 0.85em;
+    border-radius: 20px;
+    outline: none;
+    transition: all 0.25s;
+    cursor: pointer;
+    margin-left: 0px;
+  }
+  
+  .submit:hover {
+    background-color: #6b1880 !important;
+    transform: scale(1.1);
+    border: none;
+  }
+  
+  .change {
+    padding-right: 0px;
+    padding-left: 0px;
+    line-height: 10px;
+    width: 28%;
+    margin-top: 15px;
+    border: 2px solid #6b1880b7;
+    box-sizing: border-box;
+    color: white;
+    background-color: #6b188090 !important;
+    font-weight: bold;
+    font-size: 0.75em;
+    border-radius: 20px;
+    outline: none;
+    transition: all 0.25s;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-top: 2px;
+  }
+  
+  .change:hover {
+    background-color: #6b1880 !important;
+    transform: scale(1.1);
+    border: none;
+  }
