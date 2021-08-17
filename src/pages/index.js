@@ -28,6 +28,6 @@ const Home = () => {
         </Router>
 
     )
-}
+};
 
-export default Home
+export default Home;
