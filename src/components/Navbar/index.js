@@ -10,13 +10,28 @@ import { Nav,
           NavBtn,
            NavBtnLink } from './NavbarElements'
 import { BrowserRouter as Router } from 'react-router-dom'
-
+import { useState, useEffect } from 'react'
 
 
 const Navbar = ({toggle}) => {
+    const [scrollNav, setScrollNav] = useState(false)
+
+    const changeNav = () => {
+        if(window.scrollY>=80){
+            setScrollNav(true)
+        }
+        else{
+            setScrollNav(false)
+        }
+    }
+
+    useEffect (()=>{
+        window.addEventListener('scroll', changeNav)
+    }, [])
+
     return (
         <>
-        <Nav>
+        <Nav scrollNav ={scrollNav}>
             <NavbarContainer>
                 <NavLogo to  ='/'> Tavo</NavLogo>
                 <MobileIcon onClick = {toggle}>
