@@ -27,10 +27,10 @@ const HeroSection = () => {
                 <VideoBG autoPlay loop muted src = {Video} type = 'video/mp4'/>
             </HeroBG>
             <HeroContent>
-                <HeroH1>Welcome - Bienvenido - 欢迎您</HeroH1>
+                <HeroH1>José Octavio Molina Nava</HeroH1>
                 <HeroP>
-                    I'm José, sophomore studying Physics and CS
-                    at Tsinghua University
+                    I'm a rising sophomore studying Physics and CS
+                    at Tsinghua University, in Beijing.
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to="signup" onMouseEnter = {onHover}

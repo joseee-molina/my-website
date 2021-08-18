@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const ServicesContainer = styled.div`
-    height:800px;
+    height:1200px;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -38,7 +38,7 @@ export const ServicesWrapper = styled.div`
     }
 `
 
-export const ServicesCard = styled.div`
+export const ServicesCard = styled.button`
     background: #fff;
     display:flex;
     flex-direction: column;
