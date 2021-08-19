@@ -5,6 +5,7 @@ export const InfoContainer = styled.div`
     background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
     @media screen and (max-width: 768px){
         padding: 100px 0;
+        height:1100px
     };
 `;
 
@@ -28,6 +29,9 @@ export const VideoBG = styled.video`
     object-fit:cover;
     background:#232a34;
     z-index:1;
+    @media screen and (max-width: 768px){
+        width: 200px;
+    };
 `;
 
 
@@ -68,6 +72,9 @@ export const Column2 = styled.div `
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
+    @media screen and (max-width: 768px){
+        width:400px;
+    };
 
 `;
 export const TextWrapper = styled.div`

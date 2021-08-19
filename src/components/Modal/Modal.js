@@ -1,12 +1,12 @@
 import React, {useRef, useEffect, useCallback} from 'react'
 import styled from 'styled-components'
-import img1 from '../../images/svg-1.svg'
+
 import {useSpring, animated} from 'react-spring'
-import {Background, ModalWrapper, ModalImg, ModalContent, CloseModalButton } from './ModalElements'
+import {Background, ModalWrapper, ModalImg, ModalContent, CloseModalButton, VideoModal } from './ModalElements'
+import {VideoBG} from '../HeroSection/HeroElements'
 
 
-
-export const Modal = ({showModal, setShowModal, title, p1, p2, p3, p4}) => {
+export const Modal = ({showModal, setShowModal, title, p1, p2, p3, p4, video, img}) => {
     const modalRef = useRef()
 
     const animation = useSpring({
@@ -27,7 +27,8 @@ export const Modal = ({showModal, setShowModal, title, p1, p2, p3, p4}) => {
           <Background ref={modalRef} onClick={closeModal}>
               <animated.div style={animation}>
                   <ModalWrapper showModal = {showModal}>
-                      <ModalImg src={img1} alt='popup' />
+                      <VideoModal autoPlay loop muted src={video} alt='popup' />
+                      
                       <ModalContent>
                           <h1>{title}</h1>
                           <p>{p1}</p>

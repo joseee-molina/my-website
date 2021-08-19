@@ -14,7 +14,7 @@ SocialMediaWrap,
 WebsiteRights,
  } from './FooterElements';
 
-import {FaFacebook, FaLinkedin, FaInstagram, FaGithub} from 'react-icons/fa'
+import {FaFacebook, FaLinkedin, FaInstagram, FaGithub,  FaYoutube} from 'react-icons/fa'
 
 const Footer = () => {
     return (
@@ -30,27 +30,27 @@ const Footer = () => {
                         </SocialLogo>
                         <WebsiteRights>Octavio Molina © {new Date().getFullYear()}  All rights reserved </WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href="/"
-                            target="_blank"
-                            aria-label="Github">
-                                <FaGithub/>
-                            </SocialIconLink>
-                            <SocialIconLink href="/"
-                            target="_blank"
-                            aria-label="Linkedin">
-                                <FaLinkedin/>
-                            </SocialIconLink>
-                            <SocialIconLink href="/"
-                            target="_blank"
-                            aria-label="Instagram">
-                                <FaInstagram/>
-                            </SocialIconLink>
-                            <SocialIconLink href="www.facebook.com"
-                            target="_blank"
-                            aria-label="Facebook">
-                                <FaFacebook/>
-                            </SocialIconLink>
-                        </SocialIcons>
+                    <SocialIconLink href="https://github.com/tavo-molina"
+                    target="https://github.com/tavo-molina"
+                    aria-label="Github">
+                        <FaGithub/>
+                    </SocialIconLink>
+                    <SocialIconLink href="https://www.linkedin.com/in/octavio12/"
+                    target="https://www.linkedin.com/in/octavio12/"
+                    aria-label="Linkedin">
+                        <FaLinkedin/>
+                    </SocialIconLink>
+                    <SocialIconLink href="https://www.facebook.com/lito.gonzalez.904/"
+                    target="https://www.facebook.com/lito.gonzalez.904/"
+                    aria-label="Facebook">
+                        <FaFacebook/>
+                    </SocialIconLink>
+                    <SocialIconLink href="https://www.youtube.com/channel/UCa-0YGtzFGUK_R05INXoICA"
+                    target="https://www.youtube.com/channel/UCa-0YGtzFGUK_R05INXoICA"
+                    aria-label="Youtube">
+                        <FaYoutube/>
+                    </SocialIconLink>
+                </SocialIcons>
                     </SocialMediaWrap>
                 </SocialMedia>
             </FooterWrap>

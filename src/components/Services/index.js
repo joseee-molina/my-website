@@ -7,9 +7,12 @@ import { ServicesContainer,
          ServicesIcon,
           ServicesP,
          } from './ServicesElements'
-import icon1 from '../../images/svg-4.svg';
-import icon2 from '../../images/svg-4.svg';
-import icon3 from '../../images/svg-4.svg';
+import gitletp from '../../images/gitlet-photo.png';
+import byowp from '../../images/byow-photo.png';
+import eriscp from '../../images/erisc-photo.png';
+import dequesp from '../../images/deques-photo.png';
+import dcop from '../../images/dco-photo.png';
+import ctgp from '../../images/ctg-photo.png';
 import { Modal } from '../Modal/Modal.js'; 
 import {gitlet, byow, erisc, deques, dco, ctg} from '../Modal/Data'
 
@@ -27,7 +30,7 @@ const Services = () => {
                 <ServicesCard onClick={openModal}>
                     <Modal showModal={showModal}
                         setShowModal={setShowModal} {...gitlet} />
-                    <ServicesIcon src={icon1}/>
+                    <ServicesIcon src={gitletp}/>
                     <ServicesH2>Gitlet</ServicesH2>
                     <ServicesP>Git-like Version Control System
                     </ServicesP>
@@ -35,7 +38,7 @@ const Services = () => {
                 <ServicesCard onClick={openModal}>
                     <Modal showModal={showModal}
                         setShowModal={setShowModal} {...byow} />
-                    <ServicesIcon src={icon1}/>
+                    <ServicesIcon src={byowp}/>
                     <ServicesH2>BYOW</ServicesH2>
                     <ServicesP>Randomly generated explorable worlds!
                     </ServicesP>
@@ -43,7 +46,7 @@ const Services = () => {
                 <ServicesCard onClick={openModal}>
                     <Modal showModal={showModal}
                         setShowModal={setShowModal} {...erisc} />
-                    <ServicesIcon src={icon1}/>
+                    <ServicesIcon src={eriscp}/>
                     <ServicesH2>ERISC</ServicesH2>
                     <ServicesP>C++ based compiler, able to read and output .txt files
                     </ServicesP>
@@ -51,7 +54,7 @@ const Services = () => {
                 <ServicesCard onClick={openModal}>
                     <Modal showModal={showModal}
                         setShowModal={setShowModal} {...deques} />
-                    <ServicesIcon src={icon1}/>
+                    <ServicesIcon src={dequesp}/>
                     <ServicesH2>Deques</ServicesH2>
                     <ServicesP>Double ended queues
                     </ServicesP>
@@ -59,7 +62,7 @@ const Services = () => {
                 <ServicesCard onClick={openModal}>
                     <Modal showModal={showModal}
                         setShowModal={setShowModal} {...dco} />
-                    <ServicesIcon src={icon1}/>
+                    <ServicesIcon src={dcop}/>
                     <ServicesH2>2048</ServicesH2>
                     <ServicesP>The famous game, in java! 
                     </ServicesP>
@@ -67,7 +70,7 @@ const Services = () => {
                 <ServicesCard onClick={openModal}>
                     <Modal showModal={showModal}
                         setShowModal={setShowModal} {...ctg} />
-                    <ServicesIcon src={icon1}/>
+                    <ServicesIcon src={ctgp}/>
                     <ServicesH2>Call the guy</ServicesH2>
                     <ServicesP>Job searching app
                     </ServicesP>

@@ -40,7 +40,8 @@ export const homeObjTwo = {
     alt: 'piggy',
     dark:false,
     primary:false,
-    darkText:true
+    darkText:true,
+    to: "mailto:jose.octavio@ciencias.unam.mx?subject=Hello Jose"
 };
 
 export const homeObjThree = {

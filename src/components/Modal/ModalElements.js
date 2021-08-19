@@ -14,8 +14,8 @@ export const Background = styled.div`
 `;
 
 export const ModalWrapper = styled.div`
-  width: 800px;
-  height: 500px;
+  width: 850px;
+  height: 600px;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
   background: #fff;
   color: #000;
@@ -27,7 +27,7 @@ export const ModalWrapper = styled.div`
 
 
   @media screen and (max-width:1410px){
-      height:800px;
+      height:1200px;
       width: 400px;
       grid-template-columns: 1fr;
   };
@@ -68,4 +68,11 @@ export const CloseModalButton = styled(MdClose)`
   height: 32px;
   padding: 0;
   z-index: 10;
+`;
+
+export const VideoModal = styled.video`
+    width:100%;
+    height:100%;
+    object-fit: scale-down;
+    background:#232a34;
 `;

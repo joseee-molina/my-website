@@ -34,7 +34,9 @@ const HeroSection = () => {
                     at Tsinghua University, in Beijing.
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="signup" onMouseEnter = {onHover}
+                    <Button href = "https://drive.google.com/drive/folders/1w6rYWjTbmEZSuxXNWCMcYCPtcqrn1qmo" 
+                    target = "https://drive.google.com/drive/folders/1w6rYWjTbmEZSuxXNWCMcYCPtcqrn1qmo"
+                     onMouseEnter = {onHover}
                      onMouseLeave = {onHover}
                      primary="true"
                      dark="false">

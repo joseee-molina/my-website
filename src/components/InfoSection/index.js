@@ -14,7 +14,8 @@ import { InfoContainer,
     ImgWrap,
     Img
  } from './InfoElements'
-
+import {FaGithub} from 'react-icons/fa'
+import {SocialIconLink} from '../Footer/FooterElements'
 
 
 const InfoSection = ({
@@ -32,7 +33,8 @@ const InfoSection = ({
       primary,
       dark,
       dark2,
-       desc2
+       desc2,
+       to
       }) => {
         
     return (
@@ -45,19 +47,16 @@ const InfoSection = ({
                             <Heading lightText = {lightText}>{headLine}</Heading>
                             <Subtitle darkText={darkText}>{description}</Subtitle>
                             <Subtitle darkText={darkText}>{desc2}</Subtitle>
-
                             <BtnWrap>
-                                <Button to="home"
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact="true"
-                                offset={-80}
-                                primary={primary ? 1 : 0}
-                                dark={dark ? 1 : 0}
-                                dark2 = {dark2 ? 1 : 0}
+                                <Button 
+                                href={to}
+                                target={to}
+                                aria-label="Linkedin"
                                 >{buttonLabel}</Button> 
                             </BtnWrap>
+                            
+
+                            
                         </TextWrapper>
                     </Column1>
                     <Column2>
