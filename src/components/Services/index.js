@@ -12,7 +12,7 @@ import byowp from '../../images/byow-photo.png';
 import eriscp from '../../images/erisc-photo.png';
 import dequesp from '../../images/deques-photo.png';
 import dcop from '../../images/dco-photo.png';
-import ctgp from '../../images/ctg-photo.png';
+import ghp from '../../images/gh-photo.png';
 import { Modal } from '../Modal/Modal.js'; 
 import {gitlet, byow, erisc, deques, dco, ctg} from '../Modal/Data'
 
