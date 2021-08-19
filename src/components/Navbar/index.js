@@ -38,7 +38,7 @@ const Navbar = ({toggle}) => {
         <>
         <Nav scrollNav ={scrollNav}>
             <NavbarContainer>
-                <NavLogo to  ='/' onClick={toggleHome}> Tavo</NavLogo>
+                <NavLogo to  ='/' onClick={toggleHome}>José</NavLogo>
                 <MobileIcon onClick = {toggle}>
                     <FaBars/>
                 </MobileIcon>
@@ -58,14 +58,6 @@ const Navbar = ({toggle}) => {
                         spy={true}
                         exact='true'
                         offset={-80}>Portfolio</NavLinks>
-                    </NavItem>
-                    <NavItem>
-                        <NavLinks to="resume"
-                        smooth={true}
-                        duration={500}
-                        spy={true}
-                        exact='true'
-                        offset={-80}>Resume</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to="awards"

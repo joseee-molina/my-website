@@ -11,7 +11,7 @@ import icon1 from '../../images/svg-4.svg';
 import icon2 from '../../images/svg-4.svg';
 import icon3 from '../../images/svg-4.svg';
 import { Modal } from '../Modal/Modal.js'; 
-import {modal1} from '../Modal/Data'
+import {gitlet, byow, erisc, deques, dco, ctg} from '../Modal/Data'
 
 const Services = () => {
     const [showModal, setShowModal] = useState(false);
@@ -26,7 +26,7 @@ const Services = () => {
             <ServicesWrapper>
                 <ServicesCard onClick={openModal}>
                     <Modal showModal={showModal}
-                        setShowModal={setShowModal} {...modal1} />
+                        setShowModal={setShowModal} {...gitlet} />
                     <ServicesIcon src={icon1}/>
                     <ServicesH2>Gitlet</ServicesH2>
                     <ServicesP>Git-like Version Control System
@@ -34,7 +34,7 @@ const Services = () => {
                 </ServicesCard>
                 <ServicesCard onClick={openModal}>
                     <Modal showModal={showModal}
-                        setShowModal={setShowModal} {...modal1} />
+                        setShowModal={setShowModal} {...byow} />
                     <ServicesIcon src={icon1}/>
                     <ServicesH2>BYOW</ServicesH2>
                     <ServicesP>Randomly generated explorable worlds!
@@ -42,7 +42,7 @@ const Services = () => {
                 </ServicesCard>
                 <ServicesCard onClick={openModal}>
                     <Modal showModal={showModal}
-                        setShowModal={setShowModal} {...modal1} />
+                        setShowModal={setShowModal} {...erisc} />
                     <ServicesIcon src={icon1}/>
                     <ServicesH2>ERISC</ServicesH2>
                     <ServicesP>C++ based compiler, able to read and output .txt files
@@ -50,7 +50,7 @@ const Services = () => {
                 </ServicesCard>
                 <ServicesCard onClick={openModal}>
                     <Modal showModal={showModal}
-                        setShowModal={setShowModal} {...modal1} />
+                        setShowModal={setShowModal} {...deques} />
                     <ServicesIcon src={icon1}/>
                     <ServicesH2>Deques</ServicesH2>
                     <ServicesP>Double ended queues
@@ -58,7 +58,7 @@ const Services = () => {
                 </ServicesCard>
                 <ServicesCard onClick={openModal}>
                     <Modal showModal={showModal}
-                        setShowModal={setShowModal} {...modal1} />
+                        setShowModal={setShowModal} {...dco} />
                     <ServicesIcon src={icon1}/>
                     <ServicesH2>2048</ServicesH2>
                     <ServicesP>The famous game, in java! 
@@ -66,7 +66,7 @@ const Services = () => {
                 </ServicesCard>
                 <ServicesCard onClick={openModal}>
                     <Modal showModal={showModal}
-                        setShowModal={setShowModal} {...modal1} />
+                        setShowModal={setShowModal} {...ctg} />
                     <ServicesIcon src={icon1}/>
                     <ServicesH2>Call the guy</ServicesH2>
                     <ServicesP>Job searching app

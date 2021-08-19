@@ -14,10 +14,10 @@ import { InfoContainer,
     ImgWrap,
     Img
  } from './InfoElements'
+import {SliderData} from '../ImageSlider/SliderData'
 
 
-
-const InfoSection = ({
+const InfoSlider = ({
     id,
      lightBg,
      imgStart,
@@ -32,7 +32,8 @@ const InfoSection = ({
       primary,
       dark,
       dark2,
-       desc2
+       desc2,
+       slides
       }) => {
         
     return (
@@ -62,7 +63,7 @@ const InfoSection = ({
                     </Column1>
                     <Column2>
                         <ImgWrap>
-                            <Img src={img} alt={alt} />
+                            <ImageSlider />
                         </ImgWrap>
                     </Column2>
                 </InfoRow>
@@ -71,4 +72,4 @@ const InfoSection = ({
     )
 }
 
-export default InfoSection
+export default InfoSlider;

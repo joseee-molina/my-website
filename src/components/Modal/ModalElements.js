@@ -24,6 +24,13 @@ export const ModalWrapper = styled.div`
   position: relative;
   z-index: 10;
   border-radius: 10px;
+
+
+  @media screen and (max-width:1410px){
+      height:800px;
+      width: 400px;
+      grid-template-columns: 1fr;
+  };
 `;
 
 export const ModalImg = styled.img`
@@ -38,6 +45,7 @@ export const ModalContent = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 10px;
   line-height: 1.8;
   color: #141414;
   p {

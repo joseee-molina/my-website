@@ -7,7 +7,6 @@ import img6 from '../../images/svg-6.svg'
 import {SliderData} from '../ImageSlider/SliderData'
 
 
-
 export const homeObjOne = {
     id:'about',
     lightBg: false,
@@ -57,5 +56,4 @@ export const homeObjThree = {
     primary:true,
     darkText:false,
     slides: SliderData
-
 };

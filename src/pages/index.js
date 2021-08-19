@@ -7,7 +7,9 @@ import Navbar from '../components/Navbar/index';
 import Sidebar from '../components/Sidebar/index';
 import Services from '../components/Services/index';
 import Footer from '../components/Footer';
-
+import InfoSlider from '../components/InfoSlider/index'
+import '../components/ImageSlider0/styles.css'
+import InfoSlider0 from '../components/InfoSlider0/index'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -22,8 +24,9 @@ const Home = () => {
             <Sidebar isOpen = {isOpen} toggle = {toggle}/>
             <Navbar toggle = {toggle}/>
             <HeroSection />
-            <InfoSection {...homeObjOne} />
+            <InfoSlider0 {...homeObjOne}  />
             <Services/>
+            <InfoSlider {...homeObjThree}/>
             <InfoSection {...homeObjTwo} />
 
             <Footer/>
