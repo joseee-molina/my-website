@@ -27,7 +27,7 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-    id:'discover',
+    id:'contact',
     lightBg: true,
     lightText:false,
     lightTextDesc: false,
@@ -58,4 +58,24 @@ export const homeObjThree = {
     darkText:false,
     slides: SliderData
 
+};
+
+
+
+export const sliderObj1 = {
+    id:'about',
+    lightBg: false,
+    lightText:true,
+    lightTextDesc: true,
+    topLine: 'a few awards',
+    headLine: "Mom! I'm on TV",
+    description: "During high school, I participated in many math, physics and chemistry competitions in the National and International level, that led me to receive scholarships such as the BBVA Foundation Scholarship and the Chinese Government Scholarship",
+    buttonLabel: 'Contact me!',
+    imgStart: false,
+    img: img3,
+    alt: 'Car',
+    dark:true,
+    primary:true,
+    darkText:false,
+    desc2: "This website shows the progress that I have made in the past months as I continue growing, in order to achieve my dream: becoming a software engineer."
 };

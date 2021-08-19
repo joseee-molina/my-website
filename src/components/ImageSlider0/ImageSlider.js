@@ -6,7 +6,6 @@ import {SliderData} from './SliderData'
 const ImageSlider = () => {
     const [current, setCurrent] = useState(0);
     const length = SliderData.length ;
-    const slideShow = useRef(null);
     const intervalslideshow = useRef(null);
     const nextSlide = () => {
         setCurrent(current === length-1 ? 0 : current+1)
@@ -15,24 +14,36 @@ const ImageSlider = () => {
     const prevSlide = () => {
         setCurrent(current === 0 ? length-1 : current- 1)
     }
+    var ciclo;
+    function StartCiclo() {
+        ciclo = setInterval(() => {
+        nextSlide();
+    }, 3000);
+    }
+    
+    StartCiclo();
+    clearInterval(ciclo)
+    
+
+    
+            
     useEffect(() => {
-        intervalslideshow.current = setInterval(() => {
+        /**intervalslideshow.current = setInterval(() => {
             nextSlide();
-        }, 5000);
-        /**if(slideShow.current){
-            slideShow.current.addEventListener('mouseenter', () => {
+        }, 3000);**/
+        /**if(SliderData.current){
+            SliderData.current.addEventListener('mouseenter', () => {
                 clearInterval(intervalslideshow);
             });
-        }
-        if(slideShow.current){
-            slideShow.current.addEventListener('mouseleave', () => {
+        }**/
+        
+        /**if(SliderData.current){
+            SliderData.current.addEventListener('mouseleave', () => {
                 intervalslideshow.current = setInterval(() => {
                 nextSlide();
-            }, 5000);
+            }, 3000);
             });
-        }* this was aftersection tag below!!!
-        <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}/>
-            <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide}/>*/
+        }**/
     }, []);
 
     if(!Array.isArray(SliderData) || SliderData.length <=0){
@@ -42,8 +53,9 @@ const ImageSlider = () => {
     
 
     return (
-        <section className = "slider">
-            
+        <section className = "slider" >
+            <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}/>
+            <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide}/>
 
             {SliderData.map((slide, index) => {
                 return (

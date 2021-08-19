@@ -9,10 +9,10 @@ import img7 from '../../images/slider1/7.jpg'
 
 export const SliderData = [
     {
-        image: img1,
+        image: img2,
     },
     {
-        image: img2,
+        image: img1,
     },
     {
         image: img3,

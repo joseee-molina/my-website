@@ -10,6 +10,7 @@ import Footer from '../components/Footer';
 import InfoSlider from '../components/InfoSlider/index'
 import '../components/ImageSlider0/styles.css'
 import InfoSlider0 from '../components/InfoSlider0/index'
+import {sliderObj1} from '../components/InfoSlider/Data'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -26,7 +27,7 @@ const Home = () => {
             <HeroSection />
             <InfoSlider0 {...homeObjOne}  />
             <Services/>
-            <InfoSlider {...homeObjThree}/>
+            <InfoSlider {...sliderObj1}/>
             <InfoSection {...homeObjTwo} />
 
             <Footer/>

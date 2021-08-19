@@ -8,9 +8,32 @@ export const InfoContainer = styled.div`
     };
 `;
 
+
+export const HeroBG = styled.div`
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    width: 100%;
+    height:100%;
+    overflow:hidden;
+    z-index:1;
+
+`;
+export const VideoBG = styled.video`
+    width:100%;
+    height:100%;
+    -o-object-fit:cover;
+    object-fit:cover;
+    background:#232a34;
+    z-index:1;
+`;
+
+
 export const InfoWrapper = styled.div`
     display:grid;
-    z-index:1;
+    z-index:2;
     height:760px;
     width:100%;
     max-width:1100px;
@@ -41,6 +64,7 @@ export const Column1 = styled.div `
 `;
 
 export const Column2 = styled.div `
+    width:700px;
     margin-bottom: 15px;
     padding: 0 15px;
     grid-area: col2;
@@ -95,11 +119,7 @@ export const Img = styled.img`
 `;
 
 export const ImgWrap = styled.div`
-    max-width: 555px;
+    max-width: 755px;
     height:100%;
 `;
-
-
-
-
 

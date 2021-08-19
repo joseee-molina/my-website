@@ -14,10 +14,10 @@ import { InfoContainer,
     ImgWrap,
     Img
  } from './InfoElements'
-import {SliderData} from '../ImageSlider/SliderData'
+import Video from '../../images/bbvavideo.mp4'
+import {VideoBG,HeroBG} from '../HeroSection/HeroElements'
 
-
-const InfoSlider = ({
+const InfoSection = ({
     id,
      lightBg,
      imgStart,
@@ -32,8 +32,7 @@ const InfoSlider = ({
       primary,
       dark,
       dark2,
-       desc2,
-       slides
+       desc2
       }) => {
         
     return (
@@ -63,7 +62,7 @@ const InfoSlider = ({
                     </Column1>
                     <Column2>
                         <ImgWrap>
-                            <ImageSlider />
+                            <VideoBG autoPlay loop muted src = {Video} type = 'video/mp4'/>
                         </ImgWrap>
                     </Column2>
                 </InfoRow>
@@ -72,4 +71,4 @@ const InfoSlider = ({
     )
 }
 
-export default InfoSlider;
+export default InfoSection

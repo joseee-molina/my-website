@@ -38,6 +38,7 @@ const InfoSlider0 = ({
         
     return (
         <InfoContainer lightBg = {lightBg} id = {id}>
+            
             <InfoWrapper>
                 <InfoRow imgStart = {imgStart}>
                     <Column1>
