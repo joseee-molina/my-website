@@ -1,3 +1,47 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:521f22e42a4085ce179777cfc92faca2a7c90c398b858b69d566f9c759a34d98
-size 1618
+import React, {useRef, useCallback} from 'react'
+import styled from 'styled-components'
+
+import {useSpring, animated} from 'react-spring'
+import {Background, ModalWrapper, ModalImg, ModalContent, CloseModalButton } from '../Modal//ModalElements';
+import {VideoModalUnmuted} from './ModalElements'
+import {VideoBG} from '../HeroSection/HeroElements'
+
+
+export const ModalUnmuted = ({showModalU, setShowModalU, title, p1, p2, p3, p4, video, img}) => {
+    const modalRef = useRef()
+
+    const animation = useSpring({
+        config: {
+            duration:250
+        },
+        opacity: showModalU ? 1 : 0,
+        transform: showModalU ? `translateY(0%)` : `translateY(-100%)`
+    });
+
+    const closeModal = e =>{
+        if (modalRef.current === e.target){
+            setShowModalU(false);
+        }
+    };
+    return (
+        showModalU ? 
+          <Background ref={modalRef} onClick={closeModal}>
+              <animated.div style={animation}>
+                  <ModalWrapper showModalU = {showModalU}>
+                      <VideoModalUnmuted autoPlay loop src={video} alt='popup' />
+                      
+                      <ModalContent>
+                          <h1>{title}</h1>
+                          <p>{p1}</p>
+                          <p>{p2}</p>
+                          <p>{p3}</p>
+                          <p>{p4}</p>
+                      </ModalContent>
+                      <CloseModalButton aria-label='Close modal' onClick={setShowModalU(prev => !prev)}/>
+                  </ModalWrapper>
+              </animated.div>
+          </Background>
+
+        : null
+        );
+};

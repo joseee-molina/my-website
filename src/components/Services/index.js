@@ -30,11 +30,10 @@ const Services = () => {
         setShowModalU(prev => !prev);
     };
 
-
     return (
         <ServicesContainer id = "services">
             <ServicesH1>PORTFOLIO</ServicesH1>
-            <ServicesWrapper>
+            <ServicesWrapper >
                 <ServicesCard onClick={openModal}>
                     <Modal showModal={showModal}
                         setShowModal={setShowModal} {...gitlet} />

@@ -1,6 +1,5 @@
 import video from '../../images/bbvavideo.mp4' 
 import img1 from '../../images/slider1/2.jpg'
-import {SliderData} from '../ImageSlider/SliderData'
 
 
 export const sliderObj1 = {

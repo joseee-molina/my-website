@@ -1,6 +1,6 @@
 import React from 'react'
 import {Button} from '../ButtonElements'
-import ImageSlider from '../ImageSlider/ImageSlider'
+import ImageSlider from '../ImageSlider0/ImageSlider'
 import { InfoContainer, 
     InfoWrapper, 
     InfoRow, 

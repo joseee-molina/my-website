@@ -14,37 +14,7 @@ const ImageSlider = () => {
     const prevSlide = () => {
         setCurrent(current === 0 ? length-1 : current- 1)
     }
-    var ciclo;
-    function StartCiclo() {
-        ciclo = setInterval(() => {
-        nextSlide();
-    }, 3000);
-    }
     
-    StartCiclo();
-    clearInterval(ciclo)
-    
-
-    
-            
-    useEffect(() => {
-        /**intervalslideshow.current = setInterval(() => {
-            nextSlide();
-        }, 3000);**/
-        /**if(SliderData.current){
-            SliderData.current.addEventListener('mouseenter', () => {
-                clearInterval(intervalslideshow);
-            });
-        }**/
-        
-        /**if(SliderData.current){
-            SliderData.current.addEventListener('mouseleave', () => {
-                intervalslideshow.current = setInterval(() => {
-                nextSlide();
-            }, 3000);
-            });
-        }**/
-    }, []);
 
     if(!Array.isArray(SliderData) || SliderData.length <=0){
         return null
