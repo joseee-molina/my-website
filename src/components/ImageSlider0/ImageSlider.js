@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useRef} from 'react'
+import React, {useState} from 'react'
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 import {SliderData} from './SliderData'
 
@@ -6,7 +6,6 @@ import {SliderData} from './SliderData'
 const ImageSlider = () => {
     const [current, setCurrent] = useState(0);
     const length = SliderData.length ;
-    const intervalslideshow = useRef(null);
     const nextSlide = () => {
         setCurrent(current === length-1 ? 0 : current+1)
     }

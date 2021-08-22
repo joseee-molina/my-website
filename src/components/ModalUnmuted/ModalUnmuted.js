@@ -1,4 +1,4 @@
-import React, {useRef, useCallback} from 'react'
+import React from 'react'
 import styled from 'styled-components'
 
 import {useSpring, animated} from 'react-spring'
@@ -8,7 +8,7 @@ import {VideoBG} from '../HeroSection/HeroElements'
 
 
 export const ModalUnmuted = ({showModalU, setShowModalU, title, p1, p2, p3, p4, video, img}) => {
-    const modalRef = useRef()
+    //const modalRef = useRef()
 
     const animation = useSpring({
         config: {
@@ -18,14 +18,14 @@ export const ModalUnmuted = ({showModalU, setShowModalU, title, p1, p2, p3, p4, 
         transform: showModalU ? `translateY(0%)` : `translateY(-100%)`
     });
 
-    const closeModal = e =>{
+    /**const closeModal = e =>{
         if (modalRef.current === e.target){
             setShowModalU(false);
         }
-    };
+    };**/
     return (
         showModalU ? 
-          <Background ref={modalRef} onClick={closeModal}>
+          <Background onClick={setShowModalU(prev => !prev)}>
               <animated.div style={animation}>
                   <ModalWrapper showModalU = {showModalU}>
                       <VideoModalUnmuted autoPlay loop src={video} alt='popup' />

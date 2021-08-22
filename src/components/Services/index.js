@@ -6,6 +6,7 @@ import { ServicesContainer,
         ServicesCard,
          ServicesIcon,
           ServicesP,
+          subtitleP,
          } from './ServicesElements'
 import gitletp from '../../images/gitlet-photo.png';
 import byowp from '../../images/byow-photo.png';
@@ -15,10 +16,12 @@ import dcop from '../../images/dco-photo.png';
 import ctgp from '../../images/ctg-photo.png';
 import {ModalUnmuted} from '../ModalUnmuted/ModalUnmuted.js'; 
 import { Modal } from '../Modal/Modal.js'; 
-import {gitlet, byow, erisc, deques, dco, ctg} from '../Modal/Data'
+import {gitlet, byow, erisc, deques, dco, ctg} from '../Modal/Data';
+
 
 const Services = () => {
-
+    //hi
+    //this is a comment
     const [showModal, setShowModal] = useState(false);
     const [showModalU, setShowModalU] = useState(false);
 
@@ -31,7 +34,7 @@ const Services = () => {
     };
 
     return (
-        <ServicesContainer id = "services">
+        <ServicesContainer id = "portfolio">
             <ServicesH1>PORTFOLIO</ServicesH1>
             <ServicesWrapper >
                 <ServicesCard onClick={openModal}>
