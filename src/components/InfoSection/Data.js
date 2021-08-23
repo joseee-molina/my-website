@@ -31,7 +31,7 @@ export const homeObjTwo = {
     lightText:false,
     lightTextDesc: false,
     topLine: 'Do you want to stay in touch?',
-    headLine: "Let's connect!",
+    headLine: "Feel free to contact me!",
     description: "Send me a 'Hello', an 'Hola', or a '你好' ",
     buttonLabel: 'Contact me!',
     imgStart: true,
