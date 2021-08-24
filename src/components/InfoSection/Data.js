@@ -24,6 +24,7 @@ export const homeObjOne = {
     darkText:false,
     desc2: "This website shows the progress that I have made in the past months as I continue growing, in order to achieve my dream: becoming a software engineer."
 };
+//this is a comment
 
 export const homeObjTwo = {
     id:'contact',
