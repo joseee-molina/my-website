@@ -21,6 +21,15 @@ const HeroSection = () => {
     const onHover = () => {
         setHover(!hover);
     };
+    /*
+        <SocialIconLink href="https://www.youtube.com/channel/UCa-0YGtzFGUK_R05INXoICA"
+                    target="https://www.youtube.com/channel/UCa-0YGtzFGUK_R05INXoICA"
+                    aria-label="Youtube">
+                        <FaYoutube/>
+                    </SocialIconLink> 
+                    delete this
+                    delete this
+    */
 
     return (
         <HeroContainer >
@@ -59,11 +68,7 @@ const HeroSection = () => {
                     aria-label="Facebook">
                         <FaFacebook/>
                     </SocialIconLink>
-                    <SocialIconLink href="https://www.youtube.com/channel/UCa-0YGtzFGUK_R05INXoICA"
-                    target="https://www.youtube.com/channel/UCa-0YGtzFGUK_R05INXoICA"
-                    aria-label="Youtube">
-                        <FaYoutube/>
-                    </SocialIconLink>
+                    
                 </SocialIcons>
             </HeroContent>
         </HeroContainer>
