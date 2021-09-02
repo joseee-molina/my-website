@@ -29,6 +29,7 @@ const HeroSection = () => {
                     </SocialIconLink> 
                     delete this
                     delete this
+                    delete this too
     */
 
     return (
