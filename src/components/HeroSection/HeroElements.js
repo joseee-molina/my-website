@@ -70,7 +70,7 @@ export const HeroH1 = styled.h1`
 //this is a paragraph but styled
 //this iss a comment
 //another comment
-//another comment
+//another comme
 export const HeroP = styled.p`
     margin-top: 24px;
     color:#fff;
