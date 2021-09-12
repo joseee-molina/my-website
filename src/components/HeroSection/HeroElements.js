@@ -67,7 +67,7 @@ export const HeroH1 = styled.h1`
         font-size:32px;
     }
 `;
-//this is a paragraph but styled
+//this is a paragraphut styled
 //this iss a comm
 //another comment
 //another co
