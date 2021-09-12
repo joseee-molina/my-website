@@ -70,7 +70,7 @@ export const HeroH1 = styled.h1`
 //this is a paragraput styled
 //this iss a com
 //another comment
-//another co
+//another c
 // another
 export const HeroP = styled.p`
     margin-top: 24px;
