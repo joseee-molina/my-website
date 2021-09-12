@@ -68,7 +68,7 @@ export const HeroH1 = styled.h1`
     }
 `;
 //this is a paragraph but styled
-//this iss a comment
+//this iss a comme
 //another comment
 //another co
 // another
