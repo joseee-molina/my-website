@@ -68,7 +68,7 @@ export const HeroH1 = styled.h1`
     }
 `;
 //this is a paragraput styled
-//this iss a comm
+//this iss a com
 //another comment
 //another co
 // another
