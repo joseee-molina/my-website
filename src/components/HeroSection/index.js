@@ -40,7 +40,7 @@ const HeroSection = () => {
             <HeroContent>
                 <HeroH1>José Octavio Molina Nava</HeroH1>
                 <HeroP>
-                    I'm a rising sophomore studying Physics and CS
+                    I'm a sophomore studying Physics and CS
                     at Tsinghua University
                 </HeroP>
                 <HeroBtnWrapper>
