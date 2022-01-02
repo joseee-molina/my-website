@@ -22,7 +22,7 @@ export const homeObjOne = {
     dark:true,
     primary:true,
     darkText:false,
-    desc2: "This website shows the progress that I have made in the past months as I continue growing, in order to achieve my dream: making great contro¡ibutions to humanity"
+    desc2: "This website shows the progress that I have made in the past months as I continue growing, in order to achieve my dream: serving my community and making great contributions to humanity"
 };
 //this is a comment
 
