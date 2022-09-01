@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/my-website/static/css/main.ca0b8e38.chunk.css",
-    "main.js": "/my-website/static/js/main.6506fb06.chunk.js",
-    "main.js.map": "/my-website/static/js/main.6506fb06.chunk.js.map",
+    "main.js": "/my-website/static/js/main.90f82621.chunk.js",
+    "main.js.map": "/my-website/static/js/main.90f82621.chunk.js.map",
     "runtime-main.js": "/my-website/static/js/runtime-main.62f68c9b.js",
     "runtime-main.js.map": "/my-website/static/js/runtime-main.62f68c9b.js.map",
-    "static/js/2.557b03d9.chunk.js": "/my-website/static/js/2.557b03d9.chunk.js",
-    "static/js/2.557b03d9.chunk.js.map": "/my-website/static/js/2.557b03d9.chunk.js.map",
+    "static/js/2.54395f5e.chunk.js": "/my-website/static/js/2.54395f5e.chunk.js",
+    "static/js/2.54395f5e.chunk.js.map": "/my-website/static/js/2.54395f5e.chunk.js.map",
     "index.html": "/my-website/index.html",
     "static/css/main.ca0b8e38.chunk.css.map": "/my-website/static/css/main.ca0b8e38.chunk.css.map",
-    "static/js/2.557b03d9.chunk.js.LICENSE.txt": "/my-website/static/js/2.557b03d9.chunk.js.LICENSE.txt",
+    "static/js/2.54395f5e.chunk.js.LICENSE.txt": "/my-website/static/js/2.54395f5e.chunk.js.LICENSE.txt",
     "static/media/1.df6a86d6.jpg": "/my-website/static/media/1.df6a86d6.jpg",
     "static/media/2.d1fce6eb.jpg": "/my-website/static/media/2.d1fce6eb.jpg",
     "static/media/3.27bc3ad0.jpg": "/my-website/static/media/3.27bc3ad0.jpg",
@@ -30,6 +30,10 @@
     "static/media/gitlet-demo-short.b1bb3465.mp4": "/my-website/static/media/gitlet-demo-short.b1bb3465.mp4",
     "static/media/gitlet-photo.87d617a8.png": "/my-website/static/media/gitlet-photo.87d617a8.png",
     "static/media/hero-demo-fin.3f75872e.mp4": "/my-website/static/media/hero-demo-fin.3f75872e.mp4",
+    "static/media/hpe_logo.2e134ffc.png": "/my-website/static/media/hpe_logo.2e134ffc.png",
+    "static/media/niq_logo.72c2236c.png": "/my-website/static/media/niq_logo.72c2236c.png",
+    "static/media/orchata_logo.91586e9e.png": "/my-website/static/media/orchata_logo.91586e9e.png",
+    "static/media/orchata_vid.fc6010c0.MP4": "/my-website/static/media/orchata_vid.fc6010c0.MP4",
     "static/media/svg-1.11952e79.svg": "/my-website/static/media/svg-1.11952e79.svg",
     "static/media/svg-2.2ca61356.svg": "/my-website/static/media/svg-2.2ca61356.svg",
     "static/media/svg-3.c23c9101.svg": "/my-website/static/media/svg-3.c23c9101.svg",
@@ -39,8 +43,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.62f68c9b.js",
-    "static/js/2.557b03d9.chunk.js",
+    "static/js/2.54395f5e.chunk.js",
     "static/css/main.ca0b8e38.chunk.css",
-    "static/js/main.6506fb06.chunk.js"
+    "static/js/main.90f82621.chunk.js"
   ]
 }
