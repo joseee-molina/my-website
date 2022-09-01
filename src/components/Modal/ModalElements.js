@@ -24,7 +24,7 @@ export const ModalWrapper = styled.div`
   border-radius: 10px;
 
   @media screen and (max-width: 1410px) {
-    height: 1200px;
+    height: 1300px;
     width: 400px;
     grid-template-columns: 1fr;
   } ;
