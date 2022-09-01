@@ -80,3 +80,9 @@ export const ServicesP = styled.p`
   font-size: 1rem;
   text-align: center;
 `;
+
+export const ServicesP2 = styled.p`
+  color: grey;
+  font-size: 1rem;
+  text-align: center;
+`;

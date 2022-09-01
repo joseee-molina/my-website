@@ -3,6 +3,7 @@ import video2 from "../../images/byow-demo-fin.mp4";
 import video3 from "../../images/erisc-demo-fin.mp4";
 import video4 from "../../images/dco-demo-fin.mp4";
 import video5 from "../../images/deques-demo-fin.mp4";
+import video6 from "../../images/orchata_vid.MP4";
 
 export const gitlet = {
   title: "Gitlet",
@@ -58,5 +59,28 @@ export const ctg = {
 
 export const nielseniq = {
   title: "Software Engineer at NielsenIQ",
-  p1: "Worked as a Software Engineer",
+  p1: `This was my first full-tme job. My team consisted of people from many countries, including the US, Canada, Mexico, Brazil and India. 
+  - Deployed a data visualization portal using Angular, Java (Spring Boot REST API), SQL Server and Azure, managing business analytics of hundreds of e-commerces from Latin America (eBit project).
+  - Developed a data-collecting web page in React used by thousands of business owners from Mexico.
+  - Added functionalities to a Machine Learning ASP.NET Web API and deployed to production.
+  - Made changes to a customer-authorization API for the Log In of associates from Mexico of our B2C platform.
+  My managers: Roger Leonardis and Alan Bosworth.`,
+};
+
+export const orchata = {
+  title: "Tech intern at Orchata",
+  p1: `I worked closely with Heber Garza (Tech Lead) and Javier Gonzalez (CTO) on the development of new features for the app, and tech innovation within the company. I got to develop my own feature from scratch which is the personalized recommendation algorithm for the products you buy, which you can see on the left! This feature has increased the average ticket significantly. I achieved this using Python, AWS, Ruby on Rails, GraphQL, React Native, PostgreSQL, and a lot of mentorship and feedback.
+  - I designed and discussed other technological innovations that would be interesting to implement within the app, but didn't have time to develop them.
+  - I also interviewed one candidate for the position of Software Engineer. I was in charge of interviewing for the algorithmic section. 
+  My manager: Heber Garza.
+  `,
+  video: video6,
+};
+
+export const hpe = {
+  title: "Financial IT Developer Intern at HPE",
+  p1: `I was a member of the Financial Planning and Analysis (FP&A) LATAM team.
+  - Built data analysis pipelines using Power Automate for the team.
+  - Automated financial analysis procedures using AWS Lambda and Python functions. In particular, coded a scheduled task that triggers the execution of a Python program that cleans, organizes and feeds data to different company dashboards (developed using Power BI). These dashboards were later used by the FP&A Team of Latin America to take relevant decisions on HPE businesses in the region.
+  My manager: Patricia Tanaka`,
 };

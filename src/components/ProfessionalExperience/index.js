@@ -7,6 +7,7 @@ import {
   ServicesCard,
   ServicesIcon,
   ServicesP,
+  ServicesP2,
   subtitleP,
 } from "./ProfessionalExperienceElements.js";
 import niq_logo from "../../images/niq_logo.png";
@@ -15,7 +16,7 @@ import hpe_logo from "../../images/hpe_logo.png";
 
 import { ModalUnmuted } from "../ModalUnmuted/ModalUnmuted.js";
 import { Modal } from "../Modal/Modal.js";
-import { nielseniq, byow, erisc, deques, dco, ctg } from "../Modal/Data";
+import { nielseniq, orchata, hpe } from "../Modal/Data";
 
 const ProfessionalExperience = () => {
   //hi
@@ -45,26 +46,25 @@ const ProfessionalExperience = () => {
           <ServicesIcon src={niq_logo} />
           <ServicesH2>NielsenIQ</ServicesH2>
           <ServicesP>Software Engineer</ServicesP>
+          <ServicesP2>Apr - Aug 2022</ServicesP2>
         </ServicesCard>
         <ServicesCard onClick={openModal}>
           <Modal
             showModal={showModal}
             setShowModal={setShowModal}
-            {...nielseniq}
+            {...orchata}
           />
           <ServicesIcon src={orchata_logo} />
-          <ServicesH2>Orchata</ServicesH2>
+          <ServicesH2>Orchata (YC S21)</ServicesH2>
           <ServicesP>Tech Intern</ServicesP>
+          <ServicesP2>Nov 2021 - Mar 2022</ServicesP2>
         </ServicesCard>
         <ServicesCard onClick={openModal}>
-          <Modal
-            showModal={showModal}
-            setShowModal={setShowModal}
-            {...nielseniq}
-          />
+          <Modal showModal={showModal} setShowModal={setShowModal} {...hpe} />
           <ServicesIcon src={hpe_logo} />
           <ServicesH2>Hewlett Packard Enterprise</ServicesH2>
           <ServicesP>Financial IT Developer Intern</ServicesP>
+          <ServicesP2>Feb - Apr 2022</ServicesP2>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>

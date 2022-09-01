@@ -22,7 +22,7 @@ export const homeObjOne = {
   primary: true,
   darkText: false,
   desc2:
-    "This website shows the progress I've made during my early career in the Tech Industry. ",
+    "This website shows the progress I've made during my early career in the Tech Industry. I have not reached my potential yet. There is still room for growth. I live by the principle of continuous improvement.",
 };
 
 export const homeObjTwo = {
