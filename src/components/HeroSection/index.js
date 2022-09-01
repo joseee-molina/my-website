@@ -1,28 +1,37 @@
-import React, {useState} from 'react'
+import React, { useState } from "react";
 
-import { 
-    HeroContainer,
-    HeroBG,
-     VideoBG, 
-     HeroBtnWrapper,
-      HeroContent,
-       HeroH1, 
-      HeroP, 
-      ArrowForward,
-       ArrowRight 
-    } from './HeroElements'
-import Video from '../../videos/hero-demo-fin.mp4'
-import {Button} from '../ButtonElements'
-import {SocialIconLink, SocialIcons, SocialLogo} from '../Footer/FooterElements'
-import {FaFacebook, FaInstagram, FaLinkedin, FaGithub, FaYoutube} from 'react-icons/fa'
+import {
+  HeroContainer,
+  HeroBG,
+  VideoBG,
+  HeroBtnWrapper,
+  HeroContent,
+  HeroH1,
+  HeroP,
+  ArrowForward,
+  ArrowRight,
+} from "./HeroElements";
+import Video from "../../videos/hero-demo-fin.mp4";
+import { Button } from "../ButtonElements";
+import {
+  SocialIconLink,
+  SocialIcons,
+  SocialLogo,
+} from "../Footer/FooterElements";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaGithub,
+  FaYoutube,
+} from "react-icons/fa";
 const HeroSection = () => {
+  const [hover, setHover] = useState(false);
 
-    const [hover, setHover] = useState(false);
-
-    const onHover = () => {
-        setHover(!hover);
-    };
-    /*
+  const onHover = () => {
+    setHover(!hover);
+  };
+  /*
         <SocialIconLink href="https://www.youtube.com/channel/UCa-0YGtzFGUK_R05INXoICA"
                     target="https://www.youtube.com/channel/UCa-0YGtzFGUK_R05INXoICA"
                     aria-label="Youtube">
@@ -33,48 +42,47 @@ const HeroSection = () => {
                     delete this too
     */
 
-    return (
-        <HeroContainer >
-            <HeroBG>
-                <VideoBG autoPlay loop muted src = {Video} type = 'video/mp4'/>
-            </HeroBG>
-            <HeroContent>
-                <HeroH1>José Octavio Molina Nava</HeroH1>
-                <HeroP>
-                    I'm a sophomore studying Physics and CS
-                    at Tsinghua University
-                </HeroP>
-                <HeroBtnWrapper>
-                    <Button href = "https://drive.google.com/drive/folders/1w6rYWjTbmEZSuxXNWCMcYCPtcqrn1qmo" 
-                    target = "https://drive.google.com/drive/folders/1w6rYWjTbmEZSuxXNWCMcYCPtcqrn1qmo"
-                     onMouseEnter = {onHover}
-                     onMouseLeave = {onHover}
-                     primary="true"
-                     dark="false">
-                        Download resume! {hover ? <ArrowForward/> : <ArrowRight/>}
-                    </Button>
-                </HeroBtnWrapper>
-                <SocialIcons>
-                    <SocialIconLink href="https://github.com/tavo-molina"
-                    target="https://github.com/tavo-molina"
-                    aria-label="Github">
-                        <FaGithub/>
-                    </SocialIconLink>
-                    <SocialIconLink href="https://www.linkedin.com/in/octavio12/"
-                    target="https://www.linkedin.com/in/octavio12/"
-                    aria-label="Linkedin">
-                        <FaLinkedin/>
-                    </SocialIconLink>
-                    <SocialIconLink href="https://www.facebook.com/lito.gonzalez.904/"
-                    target="https://www.facebook.com/lito.gonzalez.904/"
-                    aria-label="Facebook">
-                        <FaFacebook/>
-                    </SocialIconLink>
-                    
-                </SocialIcons>
-            </HeroContent>
-        </HeroContainer>
-    )
-}
+  return (
+    <HeroContainer>
+      <HeroBG>
+        <VideoBG autoPlay loop muted src={Video} type="video/mp4" />
+      </HeroBG>
+      <HeroContent>
+        <HeroH1>Jose Octavio Molina Nava</HeroH1>
+        <HeroP>
+          I'm a Junior studying CS at The University of Texas at Dallas
+        </HeroP>
+        <HeroBtnWrapper>
+          <Button
+            href="https://drive.google.com/drive/folders/1w6rYWjTbmEZSuxXNWCMcYCPtcqrn1qmo"
+            target="https://drive.google.com/drive/folders/1w6rYWjTbmEZSuxXNWCMcYCPtcqrn1qmo"
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+            primary="true"
+            dark="false"
+          >
+            Download resume! {hover ? <ArrowForward /> : <ArrowRight />}
+          </Button>
+        </HeroBtnWrapper>
+        <SocialIcons>
+          <SocialIconLink
+            href="https://github.com/tavo-molina"
+            target="https://github.com/tavo-molina"
+            aria-label="Github"
+          >
+            <FaGithub />
+          </SocialIconLink>
+          <SocialIconLink
+            href="https://www.linkedin.com/in/octavio12/"
+            target="https://www.linkedin.com/in/octavio12/"
+            aria-label="Linkedin"
+          >
+            <FaLinkedin />
+          </SocialIconLink>
+        </SocialIcons>
+      </HeroContent>
+    </HeroContainer>
+  );
+};
 
-export default HeroSection
+export default HeroSection;
