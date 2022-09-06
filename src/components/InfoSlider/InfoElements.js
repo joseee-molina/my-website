@@ -3,6 +3,11 @@ import styled from "styled-components";
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
+
+  @media screen and (max-width: 1000px) {
+    padding: 100px 0;
+    height: 1100px;
+  }
   @media screen and (max-width: 768px) {
     padding: 100px 0;
     height: 1100px;
@@ -51,7 +56,7 @@ export const InfoRow = styled.div`
   grid-template-areas: ${({ imgStart }) =>
     imgStart ? `'col2 col1'` : `'col1 col2'`};
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1000px) {
     grid-template-areas: ${({ imgStart }) =>
       imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
   } ;
