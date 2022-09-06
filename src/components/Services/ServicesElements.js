@@ -23,11 +23,6 @@ export const ServicesContainer = styled.div`
     padding-top: 500px;
     padding-bottom: 950px;
   }
-
-  @media screen and (max-width: 480px) {
-    padding-top: 500px;
-    padding-bottom: 950px;
-  } ;
 `;
 
 export const ServicesWrapper = styled.div`
