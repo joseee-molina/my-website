@@ -45,6 +45,9 @@ const ProfessionalExperience = () => {
           <ServicesH2>NielsenIQ</ServicesH2>
           <ServicesP>Software Engineer</ServicesP>
           <ServicesP2>Apr - Aug 2022</ServicesP2>
+          {/**ServicesP2 is just another text but in a gray tone to include the date of the experience
+           *
+           */}
         </ServicesCard>
         <ServicesCard onClick={openModal}>
           <Modal
