@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/my-website/static/css/main.ca0b8e38.chunk.css",
-    "main.js": "/my-website/static/js/main.5e28edae.chunk.js",
-    "main.js.map": "/my-website/static/js/main.5e28edae.chunk.js.map",
+    "main.js": "/my-website/static/js/main.d97c2c9c.chunk.js",
+    "main.js.map": "/my-website/static/js/main.d97c2c9c.chunk.js.map",
     "runtime-main.js": "/my-website/static/js/runtime-main.62f68c9b.js",
     "runtime-main.js.map": "/my-website/static/js/runtime-main.62f68c9b.js.map",
-    "static/js/2.fce13b8f.chunk.js": "/my-website/static/js/2.fce13b8f.chunk.js",
-    "static/js/2.fce13b8f.chunk.js.map": "/my-website/static/js/2.fce13b8f.chunk.js.map",
+    "static/js/2.6cbf51ce.chunk.js": "/my-website/static/js/2.6cbf51ce.chunk.js",
+    "static/js/2.6cbf51ce.chunk.js.map": "/my-website/static/js/2.6cbf51ce.chunk.js.map",
     "index.html": "/my-website/index.html",
     "static/css/main.ca0b8e38.chunk.css.map": "/my-website/static/css/main.ca0b8e38.chunk.css.map",
-    "static/js/2.fce13b8f.chunk.js.LICENSE.txt": "/my-website/static/js/2.fce13b8f.chunk.js.LICENSE.txt",
+    "static/js/2.6cbf51ce.chunk.js.LICENSE.txt": "/my-website/static/js/2.6cbf51ce.chunk.js.LICENSE.txt",
     "static/media/aws.111dfd39.png": "/my-website/static/media/aws.111dfd39.png",
     "static/media/badge.f80c97fa.jpg": "/my-website/static/media/badge.f80c97fa.jpg",
     "static/media/bbvavideo.262bffea.mp4": "/my-website/static/media/bbvavideo.262bffea.mp4",
     "static/media/byow-demo-fin.0e2229e6.mp4": "/my-website/static/media/byow-demo-fin.0e2229e6.mp4",
     "static/media/byow-photo.a391c947.png": "/my-website/static/media/byow-photo.a391c947.png",
+    "static/media/csmc.1830146e.png": "/my-website/static/media/csmc.1830146e.png",
     "static/media/ctg-photo.970219a4.png": "/my-website/static/media/ctg-photo.970219a4.png",
     "static/media/dco-demo-fin.e0f28f6c.mp4": "/my-website/static/media/dco-demo-fin.e0f28f6c.mp4",
     "static/media/dco-photo.f75f63be.png": "/my-website/static/media/dco-photo.f75f63be.png",
@@ -40,8 +41,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.62f68c9b.js",
-    "static/js/2.fce13b8f.chunk.js",
+    "static/js/2.6cbf51ce.chunk.js",
     "static/css/main.ca0b8e38.chunk.css",
-    "static/js/main.5e28edae.chunk.js"
+    "static/js/main.d97c2c9c.chunk.js"
   ]
 }
