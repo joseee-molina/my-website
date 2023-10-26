@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ServicesContainer = styled.div`
-  padding-top: 25px;
+  padding-top: 0px;
   padding-bottom: 100px;
   display: flex;
   flex-direction: column;
@@ -75,7 +75,7 @@ export const ServicesH1 = styled.h1`
   margin-bottom: 64px;
   @media screen and (max-width: 480px) {
     font-size: 2rem;
-  } ;
+  }
 `;
 
 export const ServicesH2 = styled.h2`

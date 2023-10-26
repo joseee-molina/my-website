@@ -11,7 +11,7 @@ export const InfoContainer = styled.div`
   @media screen and (max-width: 768px) {
     padding: 100px 0;
     height: 1100px;
-  } ;
+  }
 `;
 
 export const HeroBG = styled.div`
@@ -34,7 +34,7 @@ export const VideoBG = styled.video`
   z-index: 1;
   @media screen and (max-width: 768px) {
     width: 200px;
-  } ;
+  }
 `;
 
 export const InfoWrapper = styled.div`
@@ -59,23 +59,26 @@ export const InfoRow = styled.div`
   @media screen and (max-width: 1000px) {
     grid-template-areas: ${({ imgStart }) =>
       imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
-  } ;
+  }
 `;
 
 export const Column1 = styled.div`
   margin-bottom: 15px;
+  margin-left: -50px;
   padding: 0 15px;
   grid-area: col1;
+  width: 500px;
 `;
 
 export const Column2 = styled.div`
   width: 700px;
   margin-bottom: 15px;
+  maring-right: -50px;
   padding: 0 15px;
   grid-area: col2;
   @media screen and (max-width: 768px) {
     width: 400px;
-  } ;
+  }
 `;
 export const TextWrapper = styled.div`
   max-width: 540px;
@@ -102,7 +105,7 @@ export const Heading = styled.h1`
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
-  } ;
+  }
 `;
 
 export const Subtitle = styled.p`

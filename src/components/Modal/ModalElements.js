@@ -27,7 +27,7 @@ export const ModalWrapper = styled.div`
     height: 1300px;
     width: 400px;
     grid-template-columns: 1fr;
-  } ;
+  }
 `;
 
 export const ModalImg = styled.img`
@@ -35,6 +35,7 @@ export const ModalImg = styled.img`
   height: 100%;
   border-radius: 10px 0 0 10px;
   background: #000;
+  object-fit: cover;
 `;
 
 export const ModalContent = styled.div`

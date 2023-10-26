@@ -38,12 +38,23 @@ export const Modal = ({
             setShowModal(false);
         }
     };**/
+  let element;
+  if (video != null) {
+    element = (
+      <animated.div style={animation}>
+        <VideoModal autoPlay loop muted src={video} alt="popup" />;
+      </animated.div>
+    );
+  }
+  if (img != null) {
+    element = <ModalImg src={img} />;
+  }
+
   return showModal ? (
     <Background onClick={setShowModal((prev) => !prev)}>
       <animated.div style={animation}>
         <ModalWrapper showModal={showModal}>
-          <VideoModal autoPlay loop muted src={video} alt="popup" />
-
+          {element}
           <ModalContent>
             <h1>{title}</h1>
             <p>{p1}</p>

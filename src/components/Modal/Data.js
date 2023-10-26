@@ -4,6 +4,8 @@ import video3 from "../../images/erisc-demo-fin.mp4";
 import video4 from "../../images/dco-demo-fin.mp4";
 import video5 from "../../images/deques-demo-fin.mp4";
 import video6 from "../../images/orchata_vid.MP4";
+import final_demo from "../../images/final_demo.jpg";
+import csmc_logo from "../../images/csmc.png";
 
 export const gitlet = {
   title: "Gitlet",
@@ -17,17 +19,17 @@ export const gitlet = {
 export const byow = {
   title: "Build Your Own World (BYOW)",
   p1: "Built using: Java",
-  p2: "Time to have fun! You give me a seed, I give you a completely random world. The challenging part of the project was generating random positions and shapes to create rooms around the world and then connect them using hallways (using shortest path and minnimum spanning trees)",
-  p3: "BYOW allows you to: choose a language to play, load a previous game, replay a previous game, create a new game by inserting a seed, save the current game, interact with the other elements, and have fun!",
-  p4: "Applied knowledge of graphs, pseudorandomness, debugging and used data sctructures such as HashMaps, priority queues, and linked lists",
+  p2: "Time to have fun! Every seed will generate a different random playable maze-like game. The challenging part was generating random positions and shapes to create rooms around the world and then connect them using hallways (shortest path and minimum spanning trees)",
+  p3: "BYOW allows you to: choose a language to play, load a game, replay a game, create a new game by inserting a seed, save the current game, interact with the other elements, and have fun!",
+  p4: "Applied knowledge of graphs, pseudorandomness, debugging and used data structures such as HashMaps, priority queues, and linked lists",
   video: video2,
 };
 
 export const erisc = {
   title: "Ectremely Reduced Instruction Set Computer (ERISC)",
   p1: "Built using: C++",
-  p2: "Have you ever wondered how does C++ read your code? ERISC is a set of recursive methods that parse inputs from a .txt file and execute the reduced inscrution set inside it, outputing another .txt file",
-  p3: "The ERISC code will read line by line looking for expressions, such as: declaration and assignment of variables, addition, subtraction, multiplication, division, modulo, while loops, conditionals (and, or), and declaring and executing methods",
+  p2: "How does C++ interpret your code? ERISC comprises a collection of recursive methods designed to parse MIPS-like inputs from a .txt file and execute the condensed instruction set contained within it, ultimately generating an oputput file.",
+  p3: "The parser will look for expressions such as: declaration and assignment of variables, addition, subtraction, multiplication, division, modulo, while loops, conditionals (and, or), and methods",
   p4: "I learned about machine architecture, data visualization and logic",
   video: video3,
 };
@@ -44,9 +46,9 @@ export const deques = {
 export const dco = {
   title: "2048",
   p1: "Built using: Java",
-  p2: "Developed the core logic behind the game: merge two tiles that have the same value, do nothing if they have different values, and lose if you have no available movements! The GUI code, handle key-presses and other methods were already implemented",
-  p3: "Connected the pieces of multiple massive classes such as Tile, Board, Side and Model, in order to make the game work. This is a valuable skill when you get to work in a giant code that you didn't write, but that you have to understand in order to work with it.",
-  p4: "The methods were not very hard to implement using linked lists, however, the design decisions were very important to make the code clean and maintainable",
+  p2: "Developed the core logic behind the game: merge two tiles that have the same value, do nothing if they have different values, and lose if you have no available movements!",
+  p3: "Worked with classes such as Tile, Board, Side and Model, in order to make the game work.",
+  p4: "While implementing the methods with linked lists wasn't particularly challenging, the crucial aspect lay in making well-considered design choices to ensure the code's cleanliness and maintainability",
   video: video4,
 };
 
@@ -55,6 +57,23 @@ export const ctg = {
   p1: "Building using: Swift, Objective C",
   p2: "I've noticed that today, most people own smartphones, why not use them to get jobs? I'm not talking about Linkedin, I'm talking about those who don't have a degree but still have skills in demand that people have to know about",
   p3: "For example: good plumbers in my city, where are them? People may give you recommendations but why not gather them all in a phone app where they can show their past work and people give comments about them? Call The Guy will help you with that.",
+};
+
+export const aws = {
+  title: "Software Development Engineer at AWS",
+  p1: `AWS Lambda Team.
+  ▪ Developed an enhancement of the Monitoring Tab of the AWS Lambda console to allow Single Control Over Multiple Dashboards (SCOMD), using Typescript, AWS CloudWatch, DynamoDB and IAM, solving an issue reported by 224 Tickets. Performed unit, integration, acceptance and canary testing on the project.
+  ▪ Led Bug Bash (beta testing) sessions with several engineers and debugged emerging issues. Obtained approval from Lead UX Designer and Principal Engineer and deployed to all AWS commercial and government regions.
+  ▪ Presented and demoed the project with the entire Lambda Organization - Ajay Nair, General Manager of AWS Lambda, was present.`,
+  img: final_demo,
+};
+
+export const csmc = {
+  title: "Mentor",
+  p1: `"At CSMC, we believe in nurturing not just code but the boundless potential of every aspiring computer scientist, lighting the way for innovation and excellence."
+
+  CSMC at UTD is not just a place for learning; it's a community where passion meets guidance, and together, we're unlocking the limitless possibilities of computer science. I am a tutor for the following courses: Programming Fundamentals (C/C++), Computer Science 1 and 2 (Java/C++), Computer Architecture, Discrete Math 1 and 2. I help dozens of engineering and computer science students every day. I have also conducted review sessions and exam-rework sessions.`,
+  img: csmc_logo,
 };
 
 export const nielseniq = {
@@ -69,10 +88,9 @@ export const nielseniq = {
 
 export const orchata = {
   title: "Tech intern at Orchata",
-  p1: `I worked closely with Heber Garza (Tech Lead) and Javier Gonzalez (CTO) on the development of new features for the app, and tech innovation within the company. I got to develop my own feature from scratch which is the personalized recommendation algorithm for the products you buy, which you can see on the left! This feature has increased the average ticket significantly. I achieved this using Python, AWS, Ruby on Rails, GraphQL, React Native, PostgreSQL, and a lot of mentorship and feedback.
-  - I designed and discussed other technological innovations that would be interesting to implement within the app, but didn't have time to develop them.
-  - I also interviewed one candidate for the position of Software Engineer. I was in charge of interviewing for the algorithmic section. 
-  My manager: Heber Garza.
+  p1: `I worked closely with Heber Garza (Tech Lead) and Javier Gonzalez (CTO). One of my standout achievements was designing and developing a personalized recommendation algorithm for purchased products, showcased on the left! This feature has increased the average ticket significantly. I used Python, AWS, Ruby on Rails, GraphQL, React Native and PostgreSQL.
+  - In addition to this, I played an instrumental role in conceptualizing and deliberating over various technological innovations that could enhance our app's functionality, although time constraints prevented me from bringing these ideas to fruition.
+  - Furthermore, I took on the responsibility of conducting an interview for a Software Engineer position, with a focus on evaluating candidates in the algorithmic domain.  My manager: Heber Garza.
   `,
   video: video6,
 };

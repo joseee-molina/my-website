@@ -48,15 +48,12 @@ const HeroSection = () => {
         <VideoBG autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBG>
       <HeroContent>
-        <HeroH1>Jose Octavio Molina Nava</HeroH1>
-        <HeroP>
-          I'm a Senior majoring in Computer Science at The University of Texas
-          at Dallas
-        </HeroP>
+        <HeroH1>Jose Molina</HeroH1>
+        <HeroP>Welcome to my website!</HeroP>
         <HeroBtnWrapper>
           <Button
-            href="https://drive.google.com/drive/folders/1w6rYWjTbmEZSuxXNWCMcYCPtcqrn1qmo"
-            target="https://drive.google.com/drive/folders/1w6rYWjTbmEZSuxXNWCMcYCPtcqrn1qmo"
+            href="https://drive.google.com/drive/folders/1qZmFm0WISh95AzAIRN1S6AXFc4FLnLzM?usp=sharing"
+            target="https://drive.google.com/drive/folders/1qZmFm0WISh95AzAIRN1S6AXFc4FLnLzM?usp=sharing"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary="true"

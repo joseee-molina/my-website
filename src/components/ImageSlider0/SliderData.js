@@ -1,33 +1,31 @@
-import img1 from '../../images/slider1/1.jpg'
-import img2 from '../../images/slider1/2.jpg'
-import img3 from '../../images/slider1/3.jpg'
-import img4 from '../../images/slider1/4.jpg'
-import img5 from '../../images/slider1/5.jpg'
-import img6 from '../../images/slider1/6.jpg'
-import img7 from '../../images/slider1/7.jpg'
-
+import aws from "../../images/slider1/aws.png";
+import fc from "../../images/slider1/tiananmen.jpg";
+import badge from "../../images/slider1/badge.jpg";
+import silver_falls from "../../images/slider1/silver_falls.jpg";
+import spheres_inside from "../../images/slider1/spheres_inside.jpg";
+import mt_rainier from "../../images/slider1/mt_rainier.jpg";
+import hoh_rf from "../../images/slider1/hoh_rf.jpg";
 
 export const SliderData = [
-    {
-        image: img2,
-    },
-    {
-        image: img1,
-    },
-    {
-        image: img3,
-    },
-    {
-        image: img4,
-    },
-    {
-        image: img5,
-    },
-    {
-        image: img6,
-    },
-    {
-        image: img7,
-    },
-    
-]
+  {
+    image: aws,
+  },
+  {
+    image: badge,
+  },
+  {
+    image: fc,
+  },
+  {
+    image: silver_falls,
+  },
+  {
+    image: spheres_inside,
+  },
+  {
+    image: mt_rainier,
+  },
+  {
+    image: hoh_rf,
+  },
+];

@@ -1,9 +1,5 @@
-import img1 from "../../images/svg-1.svg";
 import img2 from "../../images/svg-2.svg";
 import img3 from "../../images/svg-3.svg";
-import img4 from "../../images/svg-4.svg";
-import img5 from "../../images/svg-5.svg";
-import img6 from "../../images/svg-6.svg";
 
 export const homeObjOne = {
   id: "about",
@@ -13,7 +9,7 @@ export const homeObjOne = {
   topLine: "continuous improvement",
   headLine: "Striving for excellence",
   description:
-    "Hi there! I live in Dallas, Texas. I'm passionate about coding, math and science.",
+    "Hi there! I'm a Computer Science major at UT Dallas, set to graduate in Spring 2024. My academic journey kicked off as a Physics major at Tsinghua University in Beijing, China, where I was honored with a Full-Ride Scholarship. This summer, I completed my internship as an SDE at Amazon, under the AWS Lambda team in Seattle, WA.",
   buttonLabel: "Contact me!",
   imgStart: false,
   img: img3,
@@ -22,7 +18,7 @@ export const homeObjOne = {
   primary: true,
   darkText: false,
   desc2:
-    "This website shows the progress I've made during my early career in the Tech Industry. I have not reached my potential yet. There is still room for growth. I live by the principle of continuous improvement.",
+    "Currently, I work at the Computer Science Mentor Center, where I serve as a tutor for several computer science and math courses. Beyond the realm of academics, I have a passion for tennis, dedicating my weekends to volunteering with ACEing Autism, where I impart tennis skills to neurodivergent children. I also hold a 4.0 GPA and two scholarships.",
 };
 
 export const homeObjTwo = {
@@ -40,5 +36,5 @@ export const homeObjTwo = {
   dark: false,
   primary: false,
   darkText: true,
-  to: "mailto:jxm210075@utdallas.edu?subject=Hey Jose",
+  to: "mailto:jxm210075@utdallas.edu",
 };

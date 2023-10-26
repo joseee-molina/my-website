@@ -35,10 +35,10 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/" onClick={toggleHome}>
-              Octavio
+              Jose
             </SocialLogo>
             <WebsiteRights>
-              Octavio Molina © {new Date().getFullYear()} All rights reserved{" "}
+              Jose Molina © {new Date().getFullYear()} All rights reserved{" "}
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink
